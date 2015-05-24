@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2760beb912083e14b9e76a2c2ec3ed62
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - skin: {fileID: 11400000, guid: 4b4962802e1127b41818e78931d46e46, type: 2}
+  - mouseKeyboard: {fileID: 2800000, guid: 1294b5d476f1f3a4bb1cd040c246a293, type: 3}
+  - controller: {fileID: 2800000, guid: eeb0d3a86e3034c469759568ab2d1048, type: 3}
+  - iconL: {fileID: 2800000, guid: 0d2103c493bfa7d449602a53ec5d93c5, type: 3}
+  - iconR: {fileID: 2800000, guid: 6b4abab75558ac941aafb2f97aa98938, type: 3}
+  - iconRT: {fileID: 2800000, guid: 167c2ffa7ffa8de4cacd662f1196ab16, type: 3}
+  - iconBack: {fileID: 2800000, guid: b87f29b019300cd40a59d45ea7829740, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

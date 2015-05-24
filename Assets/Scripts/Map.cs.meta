@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 650503fb919a4d74fa91729e9ff48546
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - wallBase: {fileID: 100000, guid: 13322189f812b5842bc4f1a38439431b, type: 2}
+  - playerModel: {fileID: 100000, guid: e98d2ac87e86c5b4f8edffef3fac4f7b, type: 2}
+  - skin: {fileID: 11400000, guid: 4b4962802e1127b41818e78931d46e46, type: 2}
+  - iconBack: {fileID: 2800000, guid: b87f29b019300cd40a59d45ea7829740, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

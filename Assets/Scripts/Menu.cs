@@ -9,6 +9,8 @@ public class Menu : MonoBehaviour
 	public Texture2D iconX;
 	public Texture2D iconBack;
 	public GameObject BGM;
+	static bool toggleBGM = true;
+	static string statusBGM = "Music ON";
 	
 	
 	void Start () 
@@ -16,7 +18,7 @@ public class Menu : MonoBehaviour
 		KongregateAPI.Initialize();
 		Cursor.visible=true;
 		Static.ResetValues();
-		if(GameObject.Find("BGM(Clone)")==null) Instantiate(BGM);
+		if(GameObject.Find("BGM(Clone)")==null && toggleBGM) Instantiate(BGM);
 	}
 	
 	
@@ -50,6 +52,22 @@ public class Menu : MonoBehaviour
 		
 		
 		GUI.Label(new Rect(10,Screen.height-25,400,25), "A game developed by Rafael Alves");
+
+		if (GUI.Button (new Rect (Screen.width - 150, Screen.height-40, 100, 25), statusBGM)) 
+		{
+			if (toggleBGM) 
+			{
+				Destroy(GameObject.Find("BGM(Clone)"));
+				statusBGM = "Music OFF";
+				toggleBGM = false;
+			}
+			else
+			{
+				Instantiate(BGM);
+				statusBGM = "Music ON";
+				toggleBGM = true;
+			}
+		}
 	}
 	
 	void NewGame(bool isPvP=false)
